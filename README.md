@@ -138,7 +138,7 @@ limit_conn_zone <key> zone=<name>:<size>;
 limit_conn_zone $binary_remote_addr zone=addr:10m;
 ```
 
-use the `limit_copnn` to apply the limit in ` location{}``server{}``http{} ` contexts
+use the `limit_conn` to apply the limit in ` location{}``server{}``http{} ` contexts
 
 ```
 location /download {
